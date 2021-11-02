@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import {Navbar} from '../components/Navbar'
 
+
+
 function Home() {
     return (
       <div>
