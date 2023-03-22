@@ -17,7 +17,9 @@ function About() {
         <div className="font-mono text-3xl">
           Graduated Massey University Bachelor of Schience with Computer Science.
         </div>
-        
+        <div className="font-mono text-3xl">
+          Kitchen hand at Gouemon Japanese Restaurant (1 year)
+        </div>
       </div>);
 }
  export default About

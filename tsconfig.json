@@ -16,13 +16,17 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "incremental": true
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "components/Navbar.jsx", "pages/graphql.tsxql.js", "pages/myprojects.js"  ],
+    "**/*.tsx",
+    "components/Navbar.jsx",
+    "pages/graphql.tsxql.js",
+    "pages/myprojects.js"
+  ],
   "exclude": [
     "node_modules"
   ]

@@ -15,21 +15,19 @@ function MyProjects({pizzas}) {
       </div>
       
       <Link href="https://svelte-front.vercel.app/">
-          <a>https://svelte-front.vercel.app/</a>
+          https://svelte-front.vercel.app/
       </Link>
-
-      <Link href="https://beast-novel-gkuappnbt-kenta640.vercel.app/">
-      <div className="font-mono text-4xl text-blue-300 hover:text-blue-700">
-        Novel Wepsite
-      </div>
-      </Link>
-
-      <div className="font-mono text-2xl">
-        with Next.js, TailwindCSS, Fastify, and MySQL.
-      </div>
       
-      <Link href="https://beast-novel-gkuappnbt-kenta640.vercel.app/">
-          <a>https://beast-novel-gkuappnbt-kenta640.vercel.app/</a>
+      <br/>
+      <div className="text-red-300">Caution!! If you click the link below .exe file will be downloaded (not malicious!!)</div>
+      <Link href="https://storage.googleapis.com/password-generator-deluxe/releases/Password_Generator_Deluxe%20Setup%201.0.0.exe">
+        <div className="font-mono text-4xl text-blue-300 hover:text-blue-700">
+          Password Generator Deluxe
+        </div>
+      </Link>
+
+      <Link href="https://storage.googleapis.com/password-generator-deluxe/releases/Password_Generator_Deluxe%20Setup%201.0.0.exe">
+        https://storage.googleapis.com/password-generator-deluxe/releases/Password_Generator_Deluxe%20Setup%201.0.0.exe
       </Link>
 
       <Link href="https://github.com/kenta640">
@@ -38,9 +36,10 @@ function MyProjects({pizzas}) {
         </div>
       </Link>
 
-      <Link href="https://svelte-front.vercel.app/">
-        <a>https://github.com/kenta640</a>
+      <Link href="https://github.com/kenta640">
+        https://github.com/kenta640
       </Link>
+
       </div>);
 }
  export default MyProjects;
