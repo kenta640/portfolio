@@ -1,8 +1,9 @@
 
+import React from 'react';
 
-
-export const FileUpload = () => {
+const MyFirstBlog = () => {
 
     return (<>My First Blog</>)
 }
 
+export default MyFirstBlog
