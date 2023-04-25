@@ -1,10 +1,11 @@
 /*  ./components/Navbar.jsx     */
 import Link from 'next/link';
 import { useState } from 'react';
+import {useLocale} from './useLocale';
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
-
+  const {t} = useLocale()
   const handleClick = () => {
     setActive(!active);
   };
@@ -15,7 +16,7 @@ export const Navbar = () => {
         <Link href='/'>
           < div className='inline-flex items-center p-2 mr-4 '>
             <span className='text-xl text-white font-bold uppercase tracking-wide'>
-              Kenta Okubo
+              {t.KENTA_OKUBO}
             </span>
           </div>
         </Link>
@@ -52,22 +53,27 @@ export const Navbar = () => {
             </Link>
             <Link href='/myProjects'>
               <div className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-600 hover:text-white'>
-                My Projects
+                {t.MY_PROJECTS}
               </div>
             </Link>
             <Link href='/history'>
               <div className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-600 hover:text-white'>
-                History
+                {t.HISTORY}
               </div>
             </Link>
             <Link href='/blog'>
               <div className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-600 hover:text-white'>
-                Blog
+                {t.BLOG}
               </div>
             </Link>
             <Link href='/contact'>
               <div className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-600 hover:text-white'>
-                Contact
+                {t.CONTACT}
+              </div>
+            </Link>
+            <Link href='/' locale={t.TOGGLE_LANGUAGE} passHref>
+              <div className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-600 hover:text-white'>
+                Change language to {t.TOGGLE_LANGUAGE}　(言語を変える)
               </div>
             </Link>
           </div>
