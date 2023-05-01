@@ -4,5 +4,6 @@ export default {
     HISTORY: "History",
     BLOG: "Blog",
     CONTACT: "Contact",
-    TOGGLE_LANGUAGE: "ja"
+    TOGGLE_LANGUAGE: "ja",
+    Japanese: "日本語"
 }

@@ -4,5 +4,6 @@ export default {
     HISTORY: "経歴",
     BLOG: "ブログ",
     CONTACT: "連作先",
-    TOGGLE_LANGUAGE: "en"
+    TOGGLE_LANGUAGE: "en",
+    English: "English"
 }

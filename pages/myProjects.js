@@ -22,6 +22,13 @@ function MyProjects({pizzas}) {
       </div>
       <div class="py-8 ...">
       <br/>
+      
+      <Link href="https://password-generator-deluxe.com">
+        <div className="font-mono text-4xl text-blue-300 hover:text-blue-700">
+          Password Generator Deluxe Web
+        </div>
+      </Link>
+      <br/>
       <div className="text-red-300">Caution!! If you click the link below .exe file will be downloaded (not malicious!!)</div>
       <Link href="https://storage.googleapis.com/password-generator-deluxe/releases/Password_Generator_Deluxe%20Setup%201.0.0.exe?version=1.0.0">
         <div className="font-mono text-4xl text-blue-300 hover:text-blue-700">
